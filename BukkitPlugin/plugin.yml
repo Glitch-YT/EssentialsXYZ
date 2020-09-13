@@ -1,0 +1,37 @@
+main: dev.glitch.Tutorial
+version: 1.6
+name: EssentialsXYZ
+commands:
+    fly:
+        description: allows fly for sender
+        usage: /<command>
+    flyspeed:
+        description: sets the speed for flying
+        usage: /<command> <value>
+    walkspeed: 
+    speed: 
+    nick: 
+    tphere: 
+    sudo: 
+    push: 
+    bc: 
+    welcome: 
+permissions: 
+    EssentialsXYZ.fly: 
+        default: op
+    EssentialsXYZ.speed.fly: 
+        default: op
+    EssentialsXYZ.speed.walkspeed: 
+        default: op
+    EssentialsXYZ.speed: 
+        default: op
+    EssentialsXYZ.nick: 
+        default: op
+    EssentialsXYZ.tphere: 
+        default: op
+    EssentialsXYZ.sudo: 
+        default: op
+    EssentialsXYZ.broadcast: 
+        default: op
+    EssentialsXYZ.welcome: 
+        default: op
