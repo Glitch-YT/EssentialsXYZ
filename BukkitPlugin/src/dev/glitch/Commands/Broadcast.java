@@ -13,9 +13,8 @@ public class Broadcast implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command arg1, String arg2, String[] args) {
 		Player p = (Player) sender;
 		if(p.hasPermission("EssentialsXYZ.broadcast")) {
-			Bukkit.broadcastMessage(ChatColor.DARK_RED+"[ALERT] "+ChatColor.WHITE+args);
+			Bukkit.broadcastMessage(ChatColor.DARK_RED+"[ALERT] "+ChatColor.WHITE+String.join(" ", args));
 		}
 		return true;
 	}
-
 }

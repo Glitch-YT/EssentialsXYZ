@@ -1,5 +1,5 @@
 main: dev.glitch.Tutorial
-version: 1.6
+version: 2.0.0
 name: EssentialsXYZ
 commands:
     fly:
@@ -13,9 +13,9 @@ commands:
     nick: 
     tphere: 
     sudo: 
-    push: 
     bc: 
-    welcome: 
+    report: 
+    mutechat: 
 permissions: 
     EssentialsXYZ.fly: 
         default: op
@@ -34,4 +34,6 @@ permissions:
     EssentialsXYZ.broadcast: 
         default: op
     EssentialsXYZ.welcome: 
+        default: op
+    EssentialsXYZ.report.getreportmessage: 
         default: op

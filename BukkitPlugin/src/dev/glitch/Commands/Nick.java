@@ -24,5 +24,4 @@ public class Nick implements CommandExecutor {
 		}
 		return true;
 	}
-
 }
