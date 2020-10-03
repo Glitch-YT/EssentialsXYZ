@@ -1,0 +1,85 @@
+main: dev.glitch.Main
+version: 2.0.3
+name: EssentialsXYZ
+author: GlitchYT
+website: https://www.youtube.com/channel/UC5sdKs04x87MCQ7ZBTgKFwg
+api-version: 1.16
+commands:
+    fly:
+        description: allows fly for sender
+        permission: EssentialsXYZ.fly
+        permission-message: Oops! You don't have the right permissions for that :(
+    flyspeed:
+        description: sets the speed for flying
+        permission: EssentialsXYZ.setspeed.flyspeed
+        permission-message: Oops! You don't have the right permissions for that :(
+    walkspeed: 
+        description: sets the speed for walking
+        permission-message: Oops! You don't have the right permissions for that :(
+        permission: EssentialsXYZ.setspeed.walkspeed
+    speed: 
+        description: sets the speed for flying and walking
+        permission-message: Oops! You don't have the right permissions for that :(
+        permission: EssentialsXYZ.speed
+    nick: 
+        permission-message: Oops! You don't have the right permissions for that :(
+        permission: EssentialsXYZ.nick
+        desciption: sets a different name in tab and chat for you
+    tphere: 
+        permission-message: Oops! You don't have the right permissions for that :(
+        permission: EssentialsXYZ.tphere
+        descrition: tp's a player to you
+    sudo: 
+        permission-message: Oops! You don't have the right permissions for that :(
+        permission: EssentialsXYZ.sudo
+        description: makes another player say 1 word
+    broadcast: 
+        permission-message: Oops! You don't have the right permissions for that :(
+        permission: EssentialsXYZ.broadcast
+        description: says [ALERT] <your message>
+        aliases: [bc, alert]
+    report: 
+        permission-message: Oops! You don't have the right permissions for that :(
+        permission: EssentialsXYZ.report
+        description: sends a report message to players with EssentialsXYZ.report.getreportmsg
+        usage: /report <player>
+    modhelp: 
+        permission-message: Oops! You don't have the right permissions for that :(
+        permission: EssentialsXYZ.modhelp
+        description: sends a message to players with EssentialsXYZ.modhelp.getmodhelpmsg permission
+    mutechat: 
+        aliases: mc
+        permission: EssentialsXYZ.mutechat
+        permission-message: Oops! You don't have the right permissions for that :(
+    i: 
+permissions: 
+    EssentialsXYZ.fly: 
+        default: op
+    EssentialsXYZ.setspeed.flyspeed: 
+        default: op
+    EssentialsXYZ.setspeed.walkspeed: 
+        default: op
+    EssentialsXYZ.setspeed: 
+        default: op
+    EssentialsXYZ.nick: 
+        default: op
+    EssentialsXYZ.tphere: 
+        default: op
+    EssentialsXYZ.sudo: 
+        default: op
+    EssentialsXYZ.broadcast: 
+        default: op
+    EssentialsXYZ.welcome: 
+        default: op
+    EssentialsXYZ.report: 
+        default: not op
+    EssentialsXYZ.report.getmsg: 
+        default: op
+    EssentialsXYZ.modhelp: 
+        default: not op
+    EssentialsXYZ.modhelp.getmsg: 
+        default: op
+    EssentialsXYZ.mutechat: 
+        default: op
+    EssentialsXYZ.mutechat.bypass: 
+        default: op
